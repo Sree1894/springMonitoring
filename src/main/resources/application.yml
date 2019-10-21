@@ -1,0 +1,12 @@
+#debug=true
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: springmongodb
+server:
+  servlet:
+    context-path: /monitoring
+  port: 8888
